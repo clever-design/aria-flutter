@@ -1,0 +1,9 @@
+#+title: Aria Prototyping UI
+
+Just a bunch of multiplatform code for the Aria wideband-sniffer and protocol analyzer User Interface
+
+* Installation (runs on web/macos/windows/linux)
+- download required packages: ~flutter pub get~
+- generate additional sourcefiles: ~flutter pub run build_runner build --delete-conflicting-outputs~
+- build app: ~flutter build linux --release~
+- run: ~./build/linux/x64/release/bundle/aria~
